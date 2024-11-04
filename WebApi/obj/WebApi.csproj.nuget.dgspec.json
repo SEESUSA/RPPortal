@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Muddassir Irshad\\RPP\\RPPortal\\WebApi\\WebApi.csproj": {}
+    "D:\\Development\\Muddasir\\RPPortal\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Muddassir Irshad\\RPP\\RPPortal\\Application\\Application.csproj": {
+    "D:\\Development\\Muddasir\\RPPortal\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Application\\Application.csproj",
+        "projectUniqueName": "D:\\Development\\Muddasir\\RPPortal\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\abc\\.nuget\\packages\\",
-        "outputPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Application\\obj\\",
+        "projectPath": "D:\\Development\\Muddasir\\RPPortal\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\idrees nazir\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\Muddasir\\RPPortal\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\abc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\idrees nazir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +22,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Muddassir Irshad\\RPP\\RPPortal\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Domain\\Domain.csproj"
+              "D:\\Development\\Muddasir\\RPPortal\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Development\\Muddasir\\RPPortal\\Domain\\Domain.csproj"
               }
             }
           }
@@ -38,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -69,21 +75,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Muddassir Irshad\\RPP\\RPPortal\\Domain\\Domain.csproj": {
+    "D:\\Development\\Muddasir\\RPPortal\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Development\\Muddasir\\RPPortal\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\abc\\.nuget\\packages\\",
-        "outputPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Domain\\obj\\",
+        "projectPath": "D:\\Development\\Muddasir\\RPPortal\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\idrees nazir\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\Muddasir\\RPPortal\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\abc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\idrees nazir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -91,6 +97,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -103,11 +110,26 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -124,21 +146,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Muddassir Irshad\\RPP\\RPPortal\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\Development\\Muddasir\\RPPortal\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\Development\\Muddasir\\RPPortal\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\abc\\.nuget\\packages\\",
-        "outputPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Infrastructure\\obj\\",
+        "projectPath": "D:\\Development\\Muddasir\\RPPortal\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\idrees nazir\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\Muddasir\\RPPortal\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\abc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\idrees nazir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -146,14 +168,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Muddassir Irshad\\RPP\\RPPortal\\Application\\Application.csproj": {
-                "projectPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Application\\Application.csproj"
+              "D:\\Development\\Muddasir\\RPPortal\\Application\\Application.csproj": {
+                "projectPath": "D:\\Development\\Muddasir\\RPPortal\\Application\\Application.csproj"
               }
             }
           }
@@ -162,6 +185,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -183,21 +211,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Muddassir Irshad\\RPP\\RPPortal\\Persistence\\Persistence.csproj": {
+    "D:\\Development\\Muddasir\\RPPortal\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\Development\\Muddasir\\RPPortal\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\abc\\.nuget\\packages\\",
-        "outputPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Persistence\\obj\\",
+        "projectPath": "D:\\Development\\Muddasir\\RPPortal\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\idrees nazir\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\Muddasir\\RPPortal\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\abc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\idrees nazir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -205,14 +233,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Muddassir Irshad\\RPP\\RPPortal\\Application\\Application.csproj": {
-                "projectPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Application\\Application.csproj"
+              "D:\\Development\\Muddasir\\RPPortal\\Application\\Application.csproj": {
+                "projectPath": "D:\\Development\\Muddasir\\RPPortal\\Application\\Application.csproj"
               }
             }
           }
@@ -221,6 +250,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -252,21 +286,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Muddassir Irshad\\RPP\\RPPortal\\WebApi\\WebApi.csproj": {
+    "D:\\Development\\Muddasir\\RPPortal\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Muddassir Irshad\\RPP\\RPPortal\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "D:\\Development\\Muddasir\\RPPortal\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\abc\\.nuget\\packages\\",
-        "outputPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\WebApi\\obj\\",
+        "projectPath": "D:\\Development\\Muddasir\\RPPortal\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\idrees nazir\\.nuget\\packages\\",
+        "outputPath": "D:\\Development\\Muddasir\\RPPortal\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\abc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\idrees nazir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -274,20 +308,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Muddassir Irshad\\RPP\\RPPortal\\Application\\Application.csproj": {
-                "projectPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Application\\Application.csproj"
+              "D:\\Development\\Muddasir\\RPPortal\\Application\\Application.csproj": {
+                "projectPath": "D:\\Development\\Muddasir\\RPPortal\\Application\\Application.csproj"
               },
-              "C:\\Muddassir Irshad\\RPP\\RPPortal\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Infrastructure\\Infrastructure.csproj"
+              "D:\\Development\\Muddasir\\RPPortal\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Development\\Muddasir\\RPPortal\\Infrastructure\\Infrastructure.csproj"
               },
-              "C:\\Muddassir Irshad\\RPP\\RPPortal\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Muddassir Irshad\\RPP\\RPPortal\\Persistence\\Persistence.csproj"
+              "D:\\Development\\Muddasir\\RPPortal\\Persistence\\Persistence.csproj": {
+                "projectPath": "D:\\Development\\Muddasir\\RPPortal\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -296,6 +331,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -326,7 +366,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

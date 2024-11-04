@@ -1,7 +1,10 @@
 ﻿using Application.Features.Product.Queries;
+using Domain.Entites;
+using Infrastructure.Database;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Data.Entity;
 
 namespace WebApi.Controllers
 {
@@ -9,18 +12,33 @@ namespace WebApi.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        public readonly IMediator _mediatR;
 
-        public ProductsController(IMediator mediatR)
+        private readonly RPPDbContext _context;
+
+        public ProductsController(RPPDbContext context)
         {
-            _mediatR = mediatR;
+           _context = context;
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetProducts(CancellationToken cancellationToken)
+        [Route("GetUsersAsync")]
+        public  IActionResult GetUsers()
         {
-            var result = await _mediatR.Send(new GetAllProductsQuery(),cancellationToken);
-            return Ok(result);
+            var result =  _context.Users.ToList();
+
+
+            var users = new Users
+            {
+
+                FirstName = "muddasir",
+                LastName = "irshad",
+                Email = "muddasir@gmail.com",
+                Password = "123456"
+            };
+            _context.Users.Add(users);
+            _context.SaveChanges();
+
+            return Ok();
         }
     }
 }

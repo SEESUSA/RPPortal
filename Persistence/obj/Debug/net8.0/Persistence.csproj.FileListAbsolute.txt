@@ -1,0 +1,17 @@
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\bin\Debug\net8.0\Persistence.deps.json
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\bin\Debug\net8.0\Persistence.dll
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\bin\Debug\net8.0\Persistence.pdb
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\obj\Debug\net8.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfoInputs.cache
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\obj\Debug\net8.0\Persistence.AssemblyInfo.cs
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\obj\Debug\net8.0\Persistence.csproj.CoreCompileInputs.cache
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\obj\Debug\net8.0\Persistence.dll
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\obj\Debug\net8.0\refint\Persistence.dll
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\obj\Debug\net8.0\Persistence.pdb
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\obj\Debug\net8.0\ref\Persistence.dll
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\bin\Debug\net8.0\Application.dll
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\bin\Debug\net8.0\Domain.dll
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\bin\Debug\net8.0\Application.pdb
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\bin\Debug\net8.0\Domain.pdb
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\obj\Debug\net8.0\Persistence.csproj.AssemblyReference.cache
+C:\Muddassir Irshad\RPPortal\RPPortal\Persistence\obj\Debug\net8.0\Persistence.csproj.CopyComplete

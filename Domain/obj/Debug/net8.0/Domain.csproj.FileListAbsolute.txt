@@ -1,0 +1,11 @@
+C:\Muddassir Irshad\RPPortal\RPPortal\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Muddassir Irshad\RPPortal\RPPortal\Domain\bin\Debug\net8.0\Domain.dll
+C:\Muddassir Irshad\RPPortal\RPPortal\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Muddassir Irshad\RPPortal\RPPortal\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Muddassir Irshad\RPPortal\RPPortal\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Muddassir Irshad\RPPortal\RPPortal\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Muddassir Irshad\RPPortal\RPPortal\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Muddassir Irshad\RPPortal\RPPortal\Domain\obj\Debug\net8.0\Domain.dll
+C:\Muddassir Irshad\RPPortal\RPPortal\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Muddassir Irshad\RPPortal\RPPortal\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Muddassir Irshad\RPPortal\RPPortal\Domain\obj\Debug\net8.0\ref\Domain.dll

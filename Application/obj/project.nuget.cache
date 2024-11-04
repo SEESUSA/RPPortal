@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "5wcyTlrEb18d5wSnMBzapLt3vu4pBxwvk6lTnJbBaKDT3Tb1ABtyZJZ87JeFPDZong8ypk3lCMumhPk7NsAyeA==",
+  "success": true,
+  "projectFilePath": "C:\\Muddassir Irshad\\RPPortal\\RPPortal\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\abc\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\abc\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\abc\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
